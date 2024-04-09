@@ -26,8 +26,6 @@ struct Args {
 fn main() {
     let args = Args::parse();
 
-    // TODO: Validate input
-
     let mut pts_processes = tty::get_options();
 
     if args.list {
